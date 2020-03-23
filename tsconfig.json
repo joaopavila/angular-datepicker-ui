@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng2-datepicker-ui": [
+        "dist/ng2-datepicker-ui/ng2-datepicker-ui",
+        "dist/ng2-datepicker-ui"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
