@@ -4,9 +4,9 @@
     {"type": "fix", "section": "Bugs"},
     {"type": "chore", "section": "Others files"},
     {"type": "docs", "section": "Documentation"},
-    {"type": "style", "hidden": true},
+    {"type": "style", "section": "Style"},
     {"type": "refactor", "section": "Refactor"},
-    {"type": "perf", "section": "Melhorias de Performance"},
+    {"type": "perf", "section": "Performance"},
     {"type": "test", "hidden": true}
   ],
   "releaseCommitMessageFormat": "chore(release): {{currentTag}}"
