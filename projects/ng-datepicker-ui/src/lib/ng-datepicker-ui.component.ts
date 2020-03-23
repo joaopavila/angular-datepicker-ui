@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-ng2-datepicker-ui',
+  selector: 'lib-ng-datepicker-ui',
   template: `
     <p>
-      ng2-datepicker-ui works!
+      ng-datepicker-ui works!
     </p>
   `,
   styles: []
 })
-export class Ng2DatepickerUiComponent implements OnInit {
+export class NgDatepickerUiComponent implements OnInit {
 
   constructor() { }
 

@@ -16,9 +16,9 @@
       "dom"
     ],
     "paths": {
-      "ng2-datepicker-ui": [
-        "dist/ng2-datepicker-ui/ng2-datepicker-ui",
-        "dist/ng2-datepicker-ui"
+      "ng-datepicker-ui": [
+        "dist/ng-datepicker-ui/ng-datepicker-ui",
+        "dist/ng-datepicker-ui"
       ]
     }
   },
