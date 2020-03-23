@@ -16,6 +16,14 @@
       "pre-push": "npm run lint"
     }
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "url": "https://github.com/joaopavila/angular-datepicker-ui.git"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.0.7",
@@ -57,13 +65,5 @@
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
     "typescript": "~3.7.5"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "repository": {
-    "url": "https://github.com/joaopavila/angular-datepicker-ui.git"
   }
 }
