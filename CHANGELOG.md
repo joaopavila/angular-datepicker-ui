@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/joaopavila/angular-datepicker-ui/compare/v0.0.6...v0.0.7) (2020-03-23)
+
+
+### Documentation
+
+* change documentation versionrc ([3c1c3ac](https://github.com/joaopavila/angular-datepicker-ui/commit/3c1c3ac8827fe50fd769bc401a70d66e7ead9826))
+
+
+### Bugs
+
+* remove last line changelog ([a8a349a](https://github.com/joaopavila/angular-datepicker-ui/commit/a8a349a8b2f56cdcb4b6a78e50828f89d451e67c))
+
 ### [0.0.6](https://github.com/joaopavila/angular-datepicker-ui/compare/v0.0.5...v0.0.6) (2020-03-23)
 
 
