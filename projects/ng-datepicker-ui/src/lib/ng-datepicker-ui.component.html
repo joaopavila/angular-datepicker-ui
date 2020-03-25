@@ -1,0 +1,18 @@
+<div class="calendar" *ngIf="showCalendar">
+  <div class="header">
+    <span class="title">
+      {{ exhibitionToday }}
+    </span>
+    <span class="sub-title">
+      Today
+    </span>
+  </div>
+
+  <div class="calendar-navigation">
+    <button class="button" (click)="goToPrevMonth()" class="calendar-navigation-button"> < </button>
+    <button class="calendar-navigation-month">{{ monthYear }} </button>
+    <button class="button" (click)="goToNextMonth()" class="calendar-navigation-button"> > </button>
+  </div>
+
+
+</div>

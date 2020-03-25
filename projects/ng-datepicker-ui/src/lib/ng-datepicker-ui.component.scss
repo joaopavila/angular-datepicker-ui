@@ -1,0 +1,71 @@
+.calendar {
+  pointer-events: auto;
+  z-index: 1000;
+  display: flex;
+  width: 100%;
+  max-height: 100%;
+  background: #fff;
+  box-shadow: 0 0.5rem 1rem 0 rgba(44, 51, 73, 0.1);
+  padding: 0 8px;
+  flex-direction: column;
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    color: #222b45;
+    font-family: Open Sans, sans-serif;
+
+    .title {
+      display: flex;
+      align-items: center;
+      font-size: 1.125rem;
+      font-weight: 700;
+      line-height: 1.5rem;
+    }
+
+    .sub-title {
+      font-size: 1.125rem;
+      font-weight: 400;
+      line-height: 1.125rem;
+    }
+  }
+
+  &-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 16px;
+
+    &-month {
+      background-color: #009898;
+      border-color: #009898;
+      color: #ffffff;
+      padding: 11px 18px;
+      border-style: solid;
+      text-transform: uppercase;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 8rem;
+      height: 50px;
+      font-size: 16px;
+      outline: none;
+    }
+
+    &-button {
+      border-radius: 4px;
+      cursor: pointer;
+      width: 30px;
+      height: 26px;
+      font-size: 16px;
+      outline: 0;
+      border: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        border-color: #009898;
+      }
+    }
+  }
+}

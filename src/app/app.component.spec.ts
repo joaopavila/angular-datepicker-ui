@@ -19,7 +19,6 @@ describe('AppComponent', () => {
   it(`should have as title 'angular-datepicker-ui'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-datepicker-ui');
   });
 
   it('should render title', () => {
