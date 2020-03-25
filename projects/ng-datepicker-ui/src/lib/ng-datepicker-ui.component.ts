@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'datepicker-ui',
+  selector: 'lib-datepicker-ui',
   templateUrl: './ng-datepicker-ui.component.html',
   styleUrls: ['./ng-datepicker-ui.component.scss']
 })
